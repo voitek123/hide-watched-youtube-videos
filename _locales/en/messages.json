@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "Hide watched Youtube videos"
+  },
+  "extensionDescription": {
+    "message": "Automatically hides already-watched videos on YouTube creator channel pages."
+  },
+  "popupTitle": {
+    "message": "Hide watched"
+  },
+  "labelEnabled": {
+    "message": "Hiding active"
+  },
+  "labelThreshold": {
+    "message": "Hide threshold"
+  },
+  "hintThreshold": {
+    "message": "Videos watched at least this much will be hidden. Set to 1% to hide any started video."
+  },
+  "labelDebug": {
+    "message": "Diagnostic mode"
+  },
+  "hintDebug": {
+    "message": "Logs progress detection results to the browser console (F12 → Console)."
+  },
+  "footerNote": {
+    "message": "Works on YouTube channel pages. Requires watch history to be enabled."
+  }
+}

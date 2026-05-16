@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22">
+          <path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M10 9l5 3-5 3z" fill="currentColor"/>
+          <line x1="4" y1="20" x2="20" y2="4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h1 data-i18n="popupTitle"></h1>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="pl">PL</button>
+      </div>
+    </header>
+
+    <section class="row toggle-row">
+      <label for="enabled" class="label" data-i18n="labelEnabled"></label>
+      <label class="switch">
+        <input type="checkbox" id="enabled" />
+        <span class="slider"></span>
+      </label>
+    </section>
+
+    <section class="row threshold-row">
+      <div class="threshold-head">
+        <label for="threshold" class="label" data-i18n="labelThreshold"></label>
+        <span class="value"><span id="threshold-value">90</span>%</span>
+      </div>
+      <input type="range" id="threshold" min="1" max="100" value="90" />
+      <p class="hint" data-i18n="hintThreshold"></p>
+    </section>
+
+    <section class="row toggle-row">
+      <label for="debug" class="label small" data-i18n="labelDebug"></label>
+      <label class="switch small">
+        <input type="checkbox" id="debug" />
+        <span class="slider"></span>
+      </label>
+    </section>
+    <p class="hint small-hint" data-i18n="hintDebug"></p>
+
+    <footer>
+      <p data-i18n="footerNote"></p>
+    </footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

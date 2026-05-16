@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "Ukryj obejrzane filmy YouTube"
+  },
+  "extensionDescription": {
+    "message": "Automatycznie ukrywa obejrzane filmy na stronach kanałów YouTube."
+  },
+  "popupTitle": {
+    "message": "Ukryj obejrzane"
+  },
+  "labelEnabled": {
+    "message": "Ukrywanie aktywne"
+  },
+  "labelThreshold": {
+    "message": "Próg ukrywania"
+  },
+  "hintThreshold": {
+    "message": "Filmy obejrzane w co najmniej tym stopniu znikną z widoku. Ustaw na 1%, aby ukrywać każdy zaczęty film."
+  },
+  "labelDebug": {
+    "message": "Tryb diagnostyczny"
+  },
+  "hintDebug": {
+    "message": "Po włączeniu skrypt wypisuje wyniki w konsoli przeglądarki (F12 → Konsola)."
+  },
+  "footerNote": {
+    "message": "Działa na stronach kanałów YouTube. Wymaga włączonej historii oglądania."
+  }
+}

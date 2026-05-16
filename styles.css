@@ -1,0 +1,4 @@
+/* Ukrywanie obejrzanych filmów — wstrzykiwane na stronach YouTube */
+.uof-hidden {
+  display: none !important;
+}
