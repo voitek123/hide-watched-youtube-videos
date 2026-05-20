@@ -3,7 +3,7 @@
 # Usage: bash build.sh
 set -euo pipefail
 
-OUTPUT="hide-watched-videos.zip"
+OUTPUT="hide-watched-youtube-videos.zip"
 
 # Extension source files (everything except repo/dev files)
 INCLUDE=(

@@ -30,12 +30,12 @@ The extension is not yet published on [addons.mozilla.org](https://addons.mozill
 ### Build a `.xpi` package yourself
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hide-watched-videos.git
-cd hide-watched-videos
+git clone https://github.com/voitek123/hide-watched-youtube-videos.git
+cd hide-watched-youtube-videos
 bash build.sh
 ```
 
-This creates `hide-watched-videos.zip` in the project root, loadable via `about:debugging`.
+This creates `hide-watched-youtube-videos.zip` in the project root, loadable via `about:debugging`.
 
 ## How it works
 
@@ -90,7 +90,7 @@ When reporting a bug, please include:
 ## Project structure
 
 ```
-hide-watched-videos/
+hide-watched-youtube-videos/
 ├── _locales/
 │   ├── en/messages.json   # English strings (default)
 │   └── pl/messages.json   # Polish strings

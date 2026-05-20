@@ -30,12 +30,12 @@ Dodatek nie jest jeszcze opublikowany na [addons.mozilla.org](https://addons.moz
 ### Budowanie paczki `.zip` samodzielnie
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hide-watched-videos.git
-cd hide-watched-videos
+git clone https://github.com/voitek123/hide-watched-youtube-videos.git
+cd hide-watched-youtube-videos
 bash build.sh
 ```
 
-Skrypt tworzy `hide-watched-videos.zip`, który można załadować przez `about:debugging`.
+Skrypt tworzy `hide-watched-youtube-videos.zip`, który można załadować przez `about:debugging`.
 
 ## Jak to działa
 
